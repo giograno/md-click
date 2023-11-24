@@ -11,7 +11,7 @@ setup(
     name='md-click',
     description="A command line tool for automatically generating .md files from click's CLI command.",
     author='Rivery',
-    version="1.0.2",
+    version="1.0.3",
     include_package_data=False,
     zip_safe=True,
     packages=find_packages(),
@@ -41,5 +41,5 @@ setup(
         "Topic :: Software Development :: Libraries :: Python Modules",
         "Topic :: Text Processing :: Markup :: Markdown"
     ],
-    python_required=">=3.6",
+    # python_required=">=3.6",
 )
